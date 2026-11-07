@@ -10,6 +10,8 @@ For each new prompt or request, in this order:
 2. **Then prompt-architect.** Run the `prompt-architect` skill (`.claude/skills/prompt-architect/`) to turn the answered request into a structured prompt or spec draft.
 3. Continue with the process below: spec approval, then implementation.
 
+During agentic work, follow Part A of `tokenizer-humanizer` (`.claude/skills/tokenizer-humanizer/`) for token economy. Use Part B for any drafted prose that should read as human-written.
+
 ## When a spec is required
 
 - New features and behavior changes: **yes**.
