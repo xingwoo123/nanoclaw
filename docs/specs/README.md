@@ -2,6 +2,14 @@
 
 Spec-driven development: a feature or behavior change is agreed in writing before code is written.
 
+## Agentic workflow order
+
+For each new prompt or request, in this order:
+
+1. **Grill me first.** Run the `grill-me` skill (`.claude/skills/grill-me/`) on the request or its draft document. Answer the questions, so gaps and unlabeled assumptions surface before work starts.
+2. **Then prompt-architect.** Run the `prompt-architect` skill (`.claude/skills/prompt-architect/`) to turn the answered request into a structured prompt or spec draft.
+3. Continue with the process below: spec approval, then implementation.
+
 ## When a spec is required
 
 - New features and behavior changes: **yes**.
