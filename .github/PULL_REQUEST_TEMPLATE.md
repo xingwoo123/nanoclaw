@@ -31,6 +31,15 @@
 Closes #
 <!-- If there is no issue, say why the change is safe to review directly. -->
 
+## Spec
+
+<!-- Required for new features and behavior changes (see docs/specs/README.md).
+     Bug fixes, typos and docs-only changes: check "Not required" and say why. -->
+- [ ] Spec linked below, approved, and this PR meets its acceptance criteria
+- [ ] Not required
+
+Spec: <link to docs/specs/<slug>.md or issue>
+
 ## Change kind
 
 <!-- Check exactly one. -->
