@@ -209,7 +209,7 @@ Before creating a PR, adding a skill, or preparing any contribution, you MUST re
 
 ## Spec-Driven Development
 
-New features and behavior changes need a written spec in `docs/specs/` that the owner has approved before any code is written. Follow [docs/specs/README.md](docs/specs/README.md) for the workflow order and rules; use [docs/specs/_template.md](docs/specs/_template.md). The PR template's Spec section must link the approved spec or check "Not required", and the `spec-check` workflow enforces this.
+New features and behavior changes need a written spec in `docs/specs/` that the owner has approved before any code is written. Every architecture, process, tooling, or scope decision is recorded as an ADR in [docs/adr/](docs/adr/README.md). Follow [docs/specs/README.md](docs/specs/README.md) for the workflow order and rules; use [docs/specs/_template.md](docs/specs/_template.md). The PR template's Spec section must link the approved spec or check "Not required", and the `spec-check` workflow enforces this.
 
 ## PR Hygiene
 
