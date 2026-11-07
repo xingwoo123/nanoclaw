@@ -10,7 +10,7 @@ Spec-driven development: a feature or behavior change is agreed in writing befor
 ## Process
 
 1. Copy `_template.md` to `docs/specs/<short-slug>.md`.
-2. Fill in Goal, Scope, Out of scope, and Acceptance criteria. Keep it short.
+2. Fill in Goal, Scope, Out of scope, and Acceptance criteria. Keep it short. For a rough request, draft it with the `anthropic-skills:prompt-architect` skill, then check the result against the template.
 3. Open a PR containing only the spec, or put it in the feature's issue. Link it from the PR.
 4. The owner approves it explicitly, by writing an approval line in the spec (`Approved by: <name>, <date>`) or in a comment on the issue. A reviewer agent passing a spec is not approval.
 5. Only after approval, implement. The implementing PR links the spec and must satisfy its acceptance criteria.
