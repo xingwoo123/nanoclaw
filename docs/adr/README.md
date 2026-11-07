@@ -27,6 +27,21 @@ Small, easy-to-reverse choices (naming a variable, picking a log message, a one-
 - `superseded`: replaced by a later ADR, which is linked.
 - `rejected`: considered and declined. Keep it, so the same question is not reopened without new facts.
 
+## Index
+
+| ADR | Decision | Status |
+|---|---|---|
+| [0001](0001-record-decisions-as-adrs.md) | Record project decisions as ADRs | accepted |
+| [0002](0002-spec-gate-before-code.md) | Spec approved before code for features and behavior changes | accepted |
+| [0003](0003-workflow-order.md) | Agentic workflow order for new requests | accepted |
+| [0004](0004-pr-only-to-main.md) | Changes land on main only through PRs, merged by the owner | accepted |
+| [0005](0005-github-projects-as-board.md) | GitHub Projects as the kanban board | accepted |
+| [0006](0006-single-local-dashboard.md) | One local dashboard for the board and running agents | proposed |
+| [0007](0007-personal-role-skills-in-four-groups.md) | Thirteen role skills as personal skills, in four groups | proposed |
+| [0008](0008-confirm-before-host-state-changes.md) | Owner confirms deletes and host-state changes first | accepted |
+| [0009](0009-fork-as-pr-target.md) | Pull requests target the owner's fork, not upstream | accepted |
+| [0010](0010-github-identity.md) | Claude uses its own GitHub identity, ShinChanWooBot | accepted |
+
 ## Relation to specs
 
 A spec says what a feature should do. An ADR says why a structural choice was made. A feature that needs a new architectural decision gets an ADR first, then a spec that refers to it.
