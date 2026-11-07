@@ -8,9 +8,8 @@ For each new prompt or request, in this order:
 
 1. **Grill me first.** Run the `grill-me` skill (`.claude/skills/grill-me/`) on the request or its draft document. Answer the questions, so gaps and unlabeled assumptions surface before work starts.
 2. **Then prompt-architect.** Run the `prompt-architect` skill (`.claude/skills/prompt-architect/`) to turn the answered request into a structured prompt or spec draft.
-3. Continue with the process below: spec approval, then implementation.
-
-During agentic work, follow Part A of `tokenizer-humanizer` (`.claude/skills/tokenizer-humanizer/`) for token economy. Use Part B for any drafted prose that should read as human-written.
+3. **Then tokenizer-humanizer.** Run the `tokenizer-humanizer` skill (`.claude/skills/tokenizer-humanizer/`). Apply Part A (token economy) to the agentic work that follows, and Part B (humanized prose) to any drafted text that should read as human-written.
+4. Continue with the process below: spec approval, then implementation.
 
 ## When a spec is required
 
