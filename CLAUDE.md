@@ -209,7 +209,7 @@ Before creating a PR, adding a skill, or preparing any contribution, you MUST re
 
 ## Spec-Driven Development
 
-For each new prompt or request, run `grill-me` first, then `prompt-architect`, then `tokenizer-humanizer`, then follow the spec process. New features and behavior changes need a written spec in `docs/specs/` that the owner has approved before any code is written. Bug fixes, typos, and docs-only changes do not. Follow [docs/specs/README.md](docs/specs/README.md); use [docs/specs/_template.md](docs/specs/_template.md). The PR template has a Spec section that must link the approved spec or say why it is not required.
+New features and behavior changes need a written spec in `docs/specs/` that the owner has approved before any code is written. Follow [docs/specs/README.md](docs/specs/README.md) for the workflow order and rules; use [docs/specs/_template.md](docs/specs/_template.md). The PR template's Spec section must link the approved spec or check "Not required", and the `spec-check` workflow enforces this.
 
 ## PR Hygiene
 
