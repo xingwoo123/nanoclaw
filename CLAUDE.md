@@ -207,6 +207,10 @@ Four types of skills (see [CONTRIBUTING.md](CONTRIBUTING.md)). Gateway install s
 
 Before creating a PR, adding a skill, or preparing any contribution, you MUST read [CONTRIBUTING.md](CONTRIBUTING.md). It covers accepted change types, the skill types and their guidelines, `SKILL.md` format rules, and the pre-submission checklist.
 
+## Spec-Driven Development
+
+New features and behavior changes need a written spec in `docs/specs/` that the owner has approved before any code is written. Follow [docs/specs/README.md](docs/specs/README.md) for the workflow order and rules; use [docs/specs/_template.md](docs/specs/_template.md). The PR template's Spec section must link the approved spec or check "Not required", and the `spec-check` workflow enforces this.
+
 ## PR Hygiene
 
 Before creating a PR, run these checks:
